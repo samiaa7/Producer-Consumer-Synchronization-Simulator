@@ -40,10 +40,14 @@ Operating Systems project implementing the classic Producer-Consumer problem usi
 ```bash
 gcc Project.c -o project -lpthread
 
+---
+
 ## How to Run
 
 ```bash
 ./project
+
+---
 
 ## Expected Output
 
