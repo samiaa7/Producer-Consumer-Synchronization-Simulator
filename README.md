@@ -1,60 +1,54 @@
 # Producer Consumer Synchronization Simulator
 
-Operating Systems project implementing the classic Producer-Consumer problem using multithreading in C.
+Operating Systems project implementing the classic Producer-Consumer problem using multithreading in C with semaphores, mutexes, and fair scheduling.
+
+---
 
 ## Features
 
-- Multiple Producers (5 threads)
-- Multiple Consumers (5 threads)
-- Dynamic buffer size input
-- Circular buffer implementation
-- Synchronization using:
-  - POSIX Threads (pthreads)
-  - Semaphores
-  - Mutex locks
-  - Condition Variables
-- Fair turn-based scheduling for producers and consumers
-- Real-time buffer state logging
-- Thread production/consumption statistics
-- Graceful shutdown after execution
+- 5 Producer Threads
+- 5 Consumer Threads
+- Dynamic Buffer Size Input
+- Circular Buffer Implementation
+- Semaphore Synchronization
+- Mutex Locks for Critical Sections
+- Condition Variables for Fair Scheduling
+- Real-Time Buffer State Logging
+- Producer / Consumer Statistics
+- Graceful Shutdown
+
+---
 
 ## Concepts Used
 
-- Process Synchronization
-- Critical Section Problem
-- Mutual Exclusion
 - Producer Consumer Problem
 - Bounded Buffer
+- Process Synchronization
+- Multithreading
+- Mutual Exclusion
+- Critical Section Handling
 - Deadlock Prevention
-- Thread Coordination
+- Fair Scheduling
+
+---
 
 ## Technologies
 
 - C Language
+- POSIX Threads (pthreads)
+- Semaphores
 - GCC Compiler
-- POSIX Threads
-- Linux / Unix Environment
+- Linux / Unix
 
 ---
+
+## File Structure
+
+- `Project.c` → Main source code
+
+---
+
 ## How to Compile
 
 ```bash
 gcc Project.c -o project -lpthread
-
----
-
-## How to Run
-
-```bash
-./project
-
----
-
-## Expected Output
-
-Enter buffer size: 5
-
-Producer 1 produced: 34 | Buffer: 1/5
-Consumer 1 consumed: 34 | Buffer: 0/5
-State: [ _ _ _ _ _ ]
----
