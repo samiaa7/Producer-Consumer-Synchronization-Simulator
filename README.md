@@ -1,6 +1,6 @@
 # Producer Consumer Synchronization Simulator
 
-Operating Systems project implementing the classic Producer-Consumer problem using multithreading in C with semaphores, mutexes, and fair scheduling.
+Operating Systems project implementing the classic Producer Consumer problem using multithreading in C with semaphores, mutexes, and fair scheduling.
 
 ---
 
@@ -13,7 +13,7 @@ Operating Systems project implementing the classic Producer-Consumer problem usi
 - Semaphore Synchronization
 - Mutex Locks for Critical Sections
 - Condition Variables for Fair Scheduling
-- Real-Time Buffer State Logging
+- Real Time Buffer State Logging
 - Producer / Consumer Statistics
 - Graceful Shutdown
 
@@ -42,11 +42,6 @@ Operating Systems project implementing the classic Producer-Consumer problem usi
 
 ---
 
-## File Structure
-
-- `Project.c` → Main source code
-
----
 
 ## How to Compile
 
