@@ -35,6 +35,7 @@ Operating Systems project implementing the classic Producer-Consumer problem usi
 - POSIX Threads
 - Linux / Unix Environment
 
+---
 ## How to Compile
 
 ```bash
@@ -56,3 +57,4 @@ Enter buffer size: 5
 Producer 1 produced: 34 | Buffer: 1/5
 Consumer 1 consumed: 34 | Buffer: 0/5
 State: [ _ _ _ _ _ ]
+---
