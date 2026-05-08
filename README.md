@@ -39,3 +39,16 @@ Operating Systems project implementing the classic Producer-Consumer problem usi
 
 ```bash
 gcc Project.c -o project -lpthread
+
+## How to Run
+
+```bash
+./project
+
+## Expected Output
+
+Enter buffer size: 5
+
+Producer 1 produced: 34 | Buffer: 1/5
+Consumer 1 consumed: 34 | Buffer: 0/5
+State: [ _ _ _ _ _ ]
